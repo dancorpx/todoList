@@ -1,0 +1,30 @@
+/**index.wxss**/
+.red {
+  border: red solid;
+}
+.banner {
+  width: 100%;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+  
+}.p {
+  color: blue;
+}
+.card {
+  width: 90%;
+  height: 100rpx;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 5rpx;
+}
+.item-num {
+/* flex: inline; */
+  flex-grow: 0;
+}
+.item-text {
+  /* flex: inline; */
+  flex-grow: 2;
+}
+.item-due {
+  flex-grow: 1;
+}
