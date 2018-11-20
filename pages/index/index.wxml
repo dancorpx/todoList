@@ -1,28 +1,39 @@
 <!--index.wxml-->
-<view class="container red">
-  <view class="banner red">
-    <p>TODAY'S ITEMS</p>
+<view class="container">
+  <view class="banner">
+    <view class="page-title">Today's Items</view>
   </view>
-  <view class="card red">
-    <view class="item-num red">
-      1.
+  <view class="card">
+    <view class="item-num">
+      <p>1.</p>
     </view>
-      <view class="item-text red"> 
-        some text
+      <view class="item-text"> 
+        <p>Pick Up Passport</p>
       </view>
-      <view class="item-due red">
-        2:00pm
+      <view class="item-due">
+        <p>2:00pm</p>
       </view>
   </view>
-    <view class="card red">
-    <view class="item-num red">
-      1.
+  <view class="card">
+    <view class="item-num">
+      <p>2.</p>
     </view>
-      <view class="item-text red"> 
-        some text
+      <view class="item-text"> 
+        <p>Go Running</p>
       </view>
-      <view class="item-due red">
-        2:00pm
+      <view class="item-due">
+        <p>2:00pm</p>
       </view>
-  </view>
+    </view>
+    <view class="card">
+    <view class="item-num">
+      <p>3.</p>
+    </view>
+      <view class="item-text"> 
+        <p>Buy Milk</p>
+      </view>
+      <view class="item-due">
+        <p>2:00pm</p>
+      </view>
+    </view>
 </view>

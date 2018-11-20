@@ -4,11 +4,23 @@
 }
 .banner {
   width: 100%;
-  height: 150rpx;
+  height: 200rpx;
   margin-bottom: 10rpx;
-  
-}.p {
-  color: blue;
+  color: rgba(215, 9, 9, 1);
+}
+.page-title {
+  color: rgba(215, 9, 9, 1);
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+  font-size: 100rpx;
+  margin-bottom: 10rpx;
+  text-decoration-line: underline;
+}
+p {
+  color: white;
+  font-weight: light;
 }
 .card {
   width: 90%;
@@ -16,6 +28,12 @@
   display: inline-flex;
   justify-content: space-between;
   margin-bottom: 5rpx;
+  /* border: solid rgba(255, 0, 0, 0.9); */
+  background: rgba(215, 9, 9, 1);
+  border-radius: 5rpx;
+  margin-top: 10rpx;
+  box-shadow: 2rpx 2rpx 5rpx rgba(255, 255, 255, 1);
+  padding: 10rpx;
 }
 .item-num {
 /* flex: inline; */
@@ -24,7 +42,11 @@
 .item-text {
   /* flex: inline; */
   flex-grow: 2;
+  padding-left: 10rpx;
 }
 .item-due {
   flex-grow: 1;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5rpx;
 }
