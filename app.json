@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/allItems/allItems",
-    "pages/addItem/addItem"
+    "pages/addItem/addItem",
+    "pages/splashPage/splashPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

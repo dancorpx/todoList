@@ -1,0 +1,6 @@
+<!--pages/spashPage/splashPage.wxml-->
+<text>pages/spashPage/splashPage.wxml</text>
+<view class="square blue">
+  <p class="heading-top">ToDo</p>
+  <p class="heading-bottom">LiSt</p>
+</view>

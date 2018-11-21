@@ -1,0 +1,18 @@
+/* pages/spashPage/splashPage.wxss */
+.blue {
+  border: blue solid;
+}
+.square {
+  height: 40vh;
+  margin-top: 25vh;
+  display: block; 
+}
+p {
+  color: red;
+}
+.heading-top {
+  
+}
+.heading-bottom {
+
+}
