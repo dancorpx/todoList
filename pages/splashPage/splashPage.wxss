@@ -3,16 +3,27 @@
   border: blue solid;
 }
 .square {
-  height: 40vh;
-  margin-top: 25vh;
+  height: 80vh;
+  margin-top: 5vh;
   display: block; 
+  background-color: rgba(215, 9, 9, 1);
+  flex-direction: column;
 }
 p {
-  color: red;
+  color: black;
+  font-size: 200rpx;
 }
 .heading-top {
-  
+  display: block;
+  margin-left: 10rpx;
+  padding-top: 90rpx;
 }
 .heading-bottom {
-
+  display: block;
+  text-align: right;
+  margin-right: 10rpx;
+}
+.t {
+  color: white;
+  font-size: 230rpx;
 }
