@@ -32,3 +32,6 @@ form {
 button {
   margin-top: 50rpx;
 }
+picker {
+  width: 300rpx;
+}
