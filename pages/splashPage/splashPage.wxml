@@ -1,5 +1,4 @@
 <!--pages/spashPage/splashPage.wxml-->
-<text>pages/spashPage/splashPage.wxml</text>
 <view class="square">
   <p class="heading-top"><p class="t">T</p>o<p class="t">D</p>o</p>
   <p class="heading-bottom"><p class="t">L</p>i<p class="t">S</p>t</p>

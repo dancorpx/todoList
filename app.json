@@ -19,19 +19,19 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "Today",
-        "iconPath": "commons/assets/icons/home-unactive.png",
-        "selectedPath": ""
+        "text": "TODAY",
+        "iconPath": "commons/assets/icons/calendar-8-24.png",
+        "selectedPath": "commons/assets/icons/grey-calendar-8-24.png"
       },
       {
         "pagePath": "pages/allItems/allItems",
-        "text": "All",
-        "iconPath": "commons/assets/icons/post-unactive.png",
-        "selectedPath": "commons/assets/icons/post.png"
+        "text": "ALL",
+        "iconPath": "commons/assets/icons/calendar-grey.png",
+        "selectedPath": "commons/assets/icons/calendar.png"
       },
       {
         "pagePath": "pages/addItem/addItem",
-        "text": "",
+        "text": "ADD",
         "iconPath": "commons/assets/icons/post-unactive.png",
         "selectedPath": "commons/assets/icons/post.png"
       }

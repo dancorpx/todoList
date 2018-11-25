@@ -1,1 +1,34 @@
 /* pages/addItem/addItem.wxss */
+.red {
+  border: red solid;
+}
+.banner {
+  width: 100%;
+  height: 200rpx;
+  margin-bottom: 10rpx;
+  /* color: rgba(215, 9, 9, 1); */
+}
+.page-title {
+  color: #DCDCB3;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+  font-size: 100rpx;
+  margin-bottom: 10rpx;
+  text-decoration-line: underline;
+}
+form {
+  color: #DCDCB3;
+  width: 60vw;
+}
+.title-input {
+  background-color: #DCDCB3;
+  margin-bottom: 20rpx;
+}
+.due-date-input {
+  background-color: #DCDCB3;
+}
+button {
+  margin-top: 50rpx;
+}

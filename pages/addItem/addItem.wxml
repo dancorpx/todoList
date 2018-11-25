@@ -1,2 +1,32 @@
 <!--pages/addItem/addItem.wxml-->
-<text>pages/addItem/addItem.wxml</text>
+<view class="container">
+  <view class="banner">
+    <view class="page-title">Add Item</view>
+  </view>
+    <form>
+      <view class="title">
+      Title:
+      </view>
+        <input placeholder="Enter Todo Title" class="title-input">
+        </input>
+      <view class="due-date">
+      Due Date:
+      </view>
+      <!-- <input class="due-date-input"> -->
+        <view>
+          <view>{{month}} month {{day}} day</view>
+          <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+            <picker-view-column>
+              <view wx:for="{{months}}" style="line-height: 50px">{{item}} month</view>
+            </picker-view-column>
+            <picker-view-column>
+              <view wx:for="{{days}}" style="line-height: 50px">{{item}} day</view>
+            </picker-view-column>
+          </picker-view>
+</view>
+      <!-- </input> -->
+      <button>
+        Submit
+      </button>
+    </form>
+</view>

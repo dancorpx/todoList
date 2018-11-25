@@ -4,9 +4,9 @@
 }
 .square {
   height: 80vh;
-  margin-top: 5vh;
+  margin-top: 10vh;
   display: block; 
-  background-color: rgba(215, 9, 9, 1);
+  background-color: #E72E35;
   flex-direction: column;
 }
 p {
@@ -16,7 +16,7 @@ p {
 .heading-top {
   display: block;
   margin-left: 10rpx;
-  padding-top: 90rpx;
+  padding-top: 130rpx;
 }
 .heading-bottom {
   display: block;

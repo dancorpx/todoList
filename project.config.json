@@ -33,12 +33,31 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
 					"name": "splash",
-					"pathName": "pages/splashPage/splashPage"
+					"pathName": "pages/splashPage/splashPage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Today",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "All",
+					"pathName": "pages/allItems/allItems",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "Add",
+					"pathName": "pages/addItem/addItem",
+					"query": ""
 				}
 			]
 		}

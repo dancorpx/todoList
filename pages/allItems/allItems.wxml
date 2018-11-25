@@ -1,2 +1,40 @@
 <!--pages/allItems/allItems.wxml-->
-<text>pages/allItems/allItems.wxml</text>
+<!--index.wxml-->
+<view class="container">
+  <view class="banner">
+    <view class="page-title">All Items</view>
+  </view>
+  <view class="card">
+    <view class="item-num">
+      <p>1.</p>
+    </view>
+      <view class="item-text"> 
+        <p>Pick Up Passport</p>
+      </view>
+      <view class="item-due">
+        <p>2:00pm</p>
+      </view>
+  </view>
+  <view class="card">
+    <view class="item-num">
+      <p>2.</p>
+    </view>
+      <view class="item-text"> 
+        <p>Go Running</p>
+      </view>
+      <view class="item-due">
+        <p>2:00pm</p>
+      </view>
+    </view>
+    <view class="card">
+    <view class="item-num">
+      <p>3.</p>
+    </view>
+      <view class="item-text"> 
+        <p>Buy Milk</p>
+      </view>
+      <view class="item-due">
+        <p>2:00pm</p>
+      </view>
+    </view>
+</view>

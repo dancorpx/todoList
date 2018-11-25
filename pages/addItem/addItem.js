@@ -1,6 +1,31 @@
 // pages/addItem/addItem.js
-Page({
+const date = new Date()
+const months = []
+const days = []
 
+for (let i = 1; i <= 12; i++) {
+  months.push(i)
+}
+
+for (let i = 1; i <= 31; i++) {
+  days.push(i)
+}
+
+Page({
+    data: {
+  months: months,
+  month: 2,
+  days: days,
+  day: 2,
+  value: [9999, 1, 1],
+  },
+  bindChange: function (e) {
+    const val = e.detail.value
+    this.setData({
+      month: this.data.months[val[0]],
+      day: this.data.days[val[1]]
+    })
+  },
   /**
    * 页面的初始数据
    */
