@@ -9,7 +9,7 @@
   /* color: rgba(215, 9, 9, 1); */
 }
 .page-title {
-  color: #DCDCB3;
+  color: lightgray;
   font-weight: bolder;
   text-align: center;
   padding-top: 30rpx;
@@ -19,18 +19,19 @@
   text-decoration-line: underline;
 }
 form {
-  color: #DCDCB3;
+  color: lightgray;
   width: 60vw;
 }
 .title-input {
-  background-color: #DCDCB3;
+  background-color: lightgray;
   margin-bottom: 20rpx;
 }
 .due-date-input {
-  background-color: #DCDCB3;
+  background-color: lightgray;
 }
 button {
   margin-top: 50rpx;
+  background-color: lightgray;
 }
 picker {
   width: 300rpx;

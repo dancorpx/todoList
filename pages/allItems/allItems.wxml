@@ -37,4 +37,15 @@
         <p>2:00pm</p>
       </view>
     </view>
+    <view class="card">
+    <view class="item-num">
+      <p>4.</p>
+    </view>
+      <view class="item-text"> 
+        <p>Read the news</p>
+      </view>
+      <view class="item-due">
+        <p>2018/12/12</p>
+      </view>
+    </view>
 </view>

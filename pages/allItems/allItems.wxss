@@ -10,7 +10,7 @@
   /* color: rgba(215, 9, 9, 1); */
 }
 .page-title {
-  color: #DCDCB3;
+  color: lightgray;
   font-weight: bolder;
   text-align: center;
   padding-top: 30rpx;
@@ -20,7 +20,7 @@
   text-decoration-line: underline;
 }
 p {
-  color: #DCDCB3;
+  color: lightgray;
   font-weight: light;
 }
 .card {
@@ -30,10 +30,10 @@ p {
   justify-content: space-between;
   margin-bottom: 5rpx;
   /* border: solid rgba(255, 0, 0, 0.9); */
-  background: #2C2C2C;
+  background: #242424;
   border-radius: 5rpx;
-  margin-top: 10rpx;
-  box-shadow: 2rpx 2rpx 5rpx #E72E35;
+  /* margin-top: 10rpx; */
+  border-bottom: dotted 1rpx lightgrey;
   padding: 10rpx;
 }
 .item-num {
